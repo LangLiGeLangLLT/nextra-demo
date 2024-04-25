@@ -9,9 +9,6 @@ const withNextra = nextra({
 const nextConfig = {
   reactStrictMode: true,
   output: 'export',
-  images: {
-    unoptimized: true,
-  },
 }
 
 export default withNextra(nextConfig)
