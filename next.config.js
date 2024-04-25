@@ -10,5 +10,6 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  basePath: '/nextra-demo',
 }
 module.exports = withNextra(nextConfig)
